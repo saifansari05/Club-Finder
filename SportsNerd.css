@@ -1,16 +1,68 @@
-.title{
-color:black;
-color:white;
-text-align: start;
-font-size: 15px;
-font-family: verdana;
-border-style: solid;
-display:inline-block;
-border-color: black;
-background-color: black;
+h1 {
+    color: black;
+    text-align: column;
+    font-size: 15px;
+    font-family: verdana;
+    display:inline-block;
+}
+
+.prem{
+    font-family: verdana;
+    font-size: 15px;
+    text-align: column;
+    color: black;
+    vertical-align:top;
+    display:inline-block;
+    margin: 10px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify{
+    justify-content: space-evenly;
 }
 
 
 .background{
-    background-image: url("images/Background.jpg")
+    background-image: url("images/Background.jpg");
+    position: relative;
+    white-space: nowrap;
+}
+
+a{
+    /*Default state*/
+    outline: none; /*removes the outline when the link is focused*/
+    text-decoration: none; /*removes the underline*/
+    font-family: 'Oswald', sans-serif; /*link text font*/
+    font-weight: 300;
+}
+
+a:link { /*unvisited link*/
+    color: #E54548; /*text color*/
+}
+
+a:visited { /*visited link*/
+    color: #E54548 /*text color*/ 
+}
+
+a:focus { /*focused link*/
+    color: #FFFFFF; /*text color*/
+    background-color: #E54548; /*background color*/
+}
+
+a:hover { /*hovered link*/
+    font-weight: bold;  /*bold text*/
+}
+
+a:active { /*active link*/
+    background-color: #FFFFFF;
+    color: #404040 /*text color*/
 }
