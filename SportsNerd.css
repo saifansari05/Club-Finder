@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap');
 
+h1{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+.justify{
+    float: left; margin: 20px;
+}
+
 
 
 
