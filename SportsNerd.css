@@ -2,16 +2,23 @@
 
 h1{
     color: red;
+    background-color: black;
 }
 
 h2{
     color: red;
 }
 
-.justify{
-    float: left; margin: 20px;
+.title{
+    font-size: x-large;
+    text-align: left;
+    
 }
 
+.justify{
+    float: left; margin: 20px;
+    
+}
 
 
 
